@@ -163,7 +163,7 @@ color:$secondary-txt-color;
 
 .locations__line
 {
-    border: 1px solid #E1E1E1;
+    border: 1px solid $quotes-grey-color;
 
     margin-bottom: 32px;
 
@@ -192,7 +192,6 @@ font-weight: 500;
 font-size: 14px;
 line-height: calc(26/14);
 /* or 26px */
-
 
 color:$social-icon-color;
 }
@@ -234,18 +233,8 @@ line-height: 21px;
 
 text-align: center;
 
-color:$passion-color;
 
-background: #FFFFFF;
-border-radius: 22px;
 
-border: none;
-
-width:191.45px;
-
-height: 44px;
-
-margin-right: 14.5px;
 
 position: relative;
 
