@@ -88,8 +88,8 @@ color: $white-color;
 
 
     font-weight: 500;
-font-size: 16px;
-line-height:calc(30/16);
+   font-size: 16px;
+    line-height:calc(30/16);
 
 text-align: center;
 letter-spacing: 0.04em;
@@ -184,7 +184,7 @@ color:$secondary-txt-color;
 }
 
 .locations__tel,
-.locations__mail
+&__mail
 {
 font-family: 'DM Sans';
 font-style: normal;
@@ -195,7 +195,8 @@ line-height: calc(26/14);
 
 color:$social-icon-color;
 }
-.locations__button
+.locations__button,
+&_button-1
 {
     font-family: 'DM Sans';
 font-style: normal;
@@ -223,22 +224,8 @@ position: relative;
 
 }
 
-.locations__button-1
-{
-    font-family: 'DM Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 21px;
-
-text-align: center;
 
 
-
-
-position: relative;
-
-}
 .locations__button--section
 {
     margin-top: 60px;
@@ -250,5 +237,5 @@ position: relative;
 }
 .locations__button-icon
 {
-    fill: white;
+    fill:$white-color;
 }
