@@ -97,7 +97,7 @@ footer {
   }
 }
 
-.footer__social-item:not(:last-child){
+.footer__social-item:not(:last-child) {
   margin-right: 30px;
   
   @media screen and(min-width: 320px) {
