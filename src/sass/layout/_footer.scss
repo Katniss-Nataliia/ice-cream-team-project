@@ -1,3 +1,19 @@
-footer{
-  background-color: yellow;
+footer {
+  background-color: $light-pink;
+}
+
+.footer__container {
+  border-bottom: 1px solid $quotes-grey-color;
+  @media screen and(min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 90px;
+  }
+  @media screen and(min-width: 1280px) {
+    padding-bottom: 97px;
+  }
+}
+
+.footer__text { 
+  margin-bottom: 80px;
 }
