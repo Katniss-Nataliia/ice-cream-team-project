@@ -1,3 +1,106 @@
 header{
-  background-color: darkblue;
+  background-color:$pink-color;
 }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+  
+    @media screen and (min-width: 768px) {
+      padding-top: 32px;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      padding-top: 37px;
+    }
+  }
+  
+  
+  .navbar {
+    margin-left: 128px;
+    display: none;
+  
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      align-items: center;
+    }
+  
+    &__item:not(:last-child) {
+      margin-right: 35px;
+    }
+
+    &__item__link {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.31;
+      color: $white-color;
+      transition: color $time $time-function;
+    
+      &:hover,
+      &:focus {
+          color: $passion-color;
+      }
+        
+    }
+  }
+  
+  .btn-buy {
+    
+    
+    background: $white-color;
+    border-radius: 22px;
+    border: none;
+    padding: 12px 35.275px;
+    
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+
+    color: $passion-color;
+    cursor: pointer;
+    
+    display: none;
+    transition: background $time $time-function;
+  
+    &:hover,
+    &:focus {
+      background: $buton-hover-focus-color;
+    }
+  
+    @media screen and (min-width: 768px) {
+      margin-left: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      
+    }
+  
+    @media screen and (min-width: 1200px) {
+      margin-left: 141px;
+    }
+     
+  }
+  
+  .btn-buy__icon {
+    margin-left: 12px;
+  }
+  
+  .btn-burger {
+    border: none;
+    background-color: transparent;
+    margin-left: 61px;
+    padding: 0;
+  
+    @media screen and (min-width: 768px) {
+      margin-left: 293px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+      display: none;
+    }
+  }
+  
+  
