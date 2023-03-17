@@ -13,7 +13,7 @@
     
     
 
-    background: #FFFFFF;
+    background: $white-color;
     box-shadow: 0px 8px 30px 
     rgba(212, 20, 67, 0.1);
 
@@ -36,9 +36,9 @@
 {
 
 
-    border: solid 1px  #F0D1A5;
+    border: solid 1px $cofee-color;
 
-    background-color:#F0D1A5 ;
+    background-color: $cofee-color ;
 
     border-radius: 4px;
 
@@ -63,13 +63,13 @@ line-height:calc(30/16);
 text-align: center;
 letter-spacing: 0.04em;
 
-color: #FFFFFF;
+color: $white-color;
 }
 .locations__title-1
 {
-    border: solid 1px  #C2E297;
+    border: solid 1px $milk-shake-color;
 
-    background-color:#C2E297 ;
+    background-color:$milk-shake-color ;
 
     border-radius: 4px;
 
@@ -80,7 +80,7 @@ color: #FFFFFF;
 
     justify-content: center;
 
-    color: #FFFFFF;
+    color:$white-color;
 
     width: 73px;
 
@@ -94,7 +94,7 @@ line-height:calc(30/16);
 text-align: center;
 letter-spacing: 0.04em;
 
-color: #FFFFFF;
+color: $white-color;
 
 }
 
@@ -116,7 +116,7 @@ color: #FFFFFF;
     
     letter-spacing: 0.04em;
     
-    color: #000000;
+    color:$black;
 
     padding-bottom: 12px; 
     padding-top: 32px; 
@@ -128,11 +128,11 @@ color: #FFFFFF;
     font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: calc(26/14r);
+line-height: calc(26/14);
 /* identical to box height, or 26px */
 
 
-color: #000000;
+color:$black;
 
 }
 .locations__times
@@ -146,7 +146,7 @@ margin-bottom: 12px;
 
 
 
-color: #FFA5BA;
+color:$natural-pink-color;
 
 }
 .locations__info
@@ -157,13 +157,13 @@ color: #FFA5BA;
     font-size: 14px;
     line-height: calc(23/14);
         
-    color: #907E82;
+    color:$dark-grey-color;
     margin-bottom: 32px;
 }
 
 .locations__line
 {
-    border: 1px solid #E1E1E1;
+    border: 1px solid $quotes-grey-color;
 
     margin-bottom: 32px;
 
@@ -194,7 +194,7 @@ line-height: calc(26/14);
 /* or 26px */
 
 
-color: #907E82;
+color: $dark-grey-color;
 }
 .locations__button
 {
@@ -207,12 +207,12 @@ line-height: 21px;
 align-items: center;
 text-align: center;
 
-color: #FFFFFF;
+color:$white-color;
 
-background: #D41342;
+background:$passion-color;
 border-radius: 22px;
 
-border: 1px black;
+border: 1px$black;
 
 width:191.45px;
 
@@ -234,9 +234,9 @@ line-height: 21px;
 
 text-align: center;
 
-color: #D41443;
+color: $passion-color;
 
-background: #FFFFFF;
+background:$white-color;
 border-radius: 22px;
 
 border: none;
@@ -261,5 +261,5 @@ position: relative;
 }
 .locations__button-icon
 {
-    fill: white;
+    fill :$white-color;
 }
