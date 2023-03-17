@@ -1,9 +1,21 @@
 .products__display {
   display: flex;
   flex-wrap: wrap;
+  @media screen and (min-width: 769px) {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  @media screen and (min-width: 321px) {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+  @media screen and (max-width: 320) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 .products__header {
-  position: absolute;
+  position: block;
   color: $natural-pink-color;
   font-family: titan one;
   font-style: normal;
@@ -12,11 +24,13 @@
   line-height: 34px;
   text-align: center;
   letter-spacing: 0.04em;
-  @media screen and (min-width: 769px) {
-    margin-bottom: 16px;
-  }
+  margin-top: 60px;
+
   @media screen and (min-width: 321px) {
     margin-bottom: 18px;
+  }
+  @media screen and (min-width: 769px) {
+    margin-bottom: 16px;
   }
   @media screen and (max-width: 320) {
     margin-bottom: 15px;
@@ -74,15 +88,20 @@
 
   @media screen and (min-width: 321px) {
     top: -118px;
-    margin-right: 16px;
   }
   @media screen and (max-width: 320) {
-    top: 160px;
-    margin-right: 20px;
-    margin-left: 20px;
+    top: -160px;
   }
   @media screen and (min-width: 769px) {
     top: -123px;
+  }
+}
+.products__strawberry-ice {
+  @media screen and (min-width: 321px) {
+    margin-right: 16px;
+  }
+
+  @media screen and (min-width: 769px) {
     margin-right: 32px;
   }
 }
@@ -92,15 +111,20 @@
 
   @media screen and (min-width: 321px) {
     top: -118px;
-    margin-right: 16px;
   }
   @media screen and (max-width: 320) {
-    top: 160px;
-    margin-right: 20px;
-    margin-left: 20px;
+    top: -160px;
   }
   @media screen and (min-width: 769px) {
     top: -123px;
+  }
+}
+.products__coffee-ice {
+  @media screen and (min-width: 321px) {
+    margin-right: 16px;
+  }
+
+  @media screen and (min-width: 769px) {
     margin-right: 32px;
   }
 }
@@ -113,12 +137,21 @@
     margin-right: 16px;
   }
   @media screen and (max-width: 320) {
-    top: 160px;
+    top: -160px;
     margin-right: 20px;
     margin-left: 20px;
   }
   @media screen and (min-width: 769px) {
     top: -123px;
+    margin-right: 32px;
+  }
+}
+.products__mint-ice {
+  @media screen and (min-width: 321px) {
+    margin-right: 16px;
+  }
+
+  @media screen and (min-width: 769px) {
     margin-right: 32px;
   }
 }
