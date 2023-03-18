@@ -29,8 +29,8 @@ footer {
   font-family: 'Titan One', cursive;
   font-size: 30px;
   line-height: 1.145;
-  letter-spacing: 0.04em
-  text-align: start;
+  letter-spacing: 0.04em;
+ 
   text-transform: uppercase;
   margin-bottom: 16px;
   
@@ -119,7 +119,7 @@ footer {
 .footer__social-icon {
   fill: #FEA5BB;
   width: 32px;
-  height: 32px
+  height: 32px;
   transition: fill $time $time-function;
   
   
