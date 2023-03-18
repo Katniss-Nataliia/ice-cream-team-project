@@ -10,7 +10,7 @@
     font-family: 'Titan One';
     font-style: normal;
     font-weight: 400;
-    font-size: 38px;
+    font-size: 26px;
     line-height: 1.15;
     letter-spacing: 0.04em;
     text-transform: uppercase;
@@ -21,6 +21,13 @@
     & > span{
         color: $passion-color;
     }
+
+    @media screen and (min-width:768px) {
+        font-size: 22px;
+    }
+    @media screen and (min-width:1200px) {
+        font-size: 38px;
+    }
 }
 .ad-description__products-button{
     border-radius: 20px;
@@ -29,12 +36,12 @@
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 8px;
     line-height: 1.2;
     text-align: center;
     color:$white-color;
     padding:11px 23px;
-    margin-right: 12px;
+    margin-right: 8px;
     transition: box-shadow $time $time-function;
     cursor: pointer;
    
@@ -42,6 +49,11 @@
     &:focus{
         box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
         
+    }
+
+    @media screen and (min-width:1200px) {
+        font-size: 14px;
+        margin-right: 12px;
     }
     
 }
@@ -52,7 +64,7 @@
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 8px;
     line-height: 1.2;
     text-align: center;
     padding:11px 23px;
@@ -64,39 +76,106 @@
     &:focus{
         box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
     }
+
+    @media screen and (min-width:1200px) {
+        font-size: 14px;
+    }
 }
 
 .bio-eco{
-    display: flex;
-    margin-top: 40px;
-    padding-bottom: 60px;
-    
+   
+    display: none;
+
+    @media screen and (min-width:768px) {
+        display: flex;
+        margin-top: 20px;
+       
+    }
+    @media screen and (min-width:1200px) {
+        display: flex;
+        margin-top: 40px;
+        padding-bottom: 60px;
+    }
 
 }
 .bio-eco__img{
-    width: 213px;
-    height: 216px;
+    
+
+    @media screen and (min-width:768px) {
+        width: 152px;
+        height: 154px;
+    }
+    @media screen and (min-width:1200px) {
+        width: 213px;
+        height: 216px;
+    }
 }
 
 .lorem-container{
-    width: 200px;
-    justify-content: center;
+    display: none;
+    
+    @media screen and (min-width:768px) {
+        display: flex;
+        flex-direction: column;
+        width: 114px;
+        justify-content: center;
+    }
+    @media screen and (min-width:1200px) {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        justify-content: center;
+    }
 }
 
 .lorem-container__text{
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.5;
     color: $white-color;
     margin-bottom: 20px;
     padding-top: 40px;
+
+    @media screen and (min-width:768px){
+        z-index: 1;
+        font-size: 8px;
+        line-height: 1.2;
+        
+    }
+    @media screen and (min-width:1200px){
+        font-size: 14px;
+       ine-height: 1.5;
+        
+    }
+}
+
+.lorem-container__arrow-right{
+    
+    @media screen and (min-width:768px){
+        width: 18px;
+        height: 18px;
+        
+        
+    }
+    @media screen and (min-width:1200px){
+        width: 26px;
+        height: 26px;
+    }
 }
 
 .add-illustration__img{
     margin-right: 8px;
     z-index: 1;
+
+    @media screen and (min-width:768px){
+        width: 140px;
+        height: 330px;
+        
+    }
+    @media screen and (min-width:1200px){
+        width: 230px;
+        height: 550px;
+    }
     
 }
 .lady{
@@ -107,20 +186,49 @@
     z-index: 0;
     top: 0;
     right: 30%;
+    width: 345px;
+    height: 340px;
+
+    @media screen and (min-width:768px){
+        top: 10%;
+        right: 45%;
+        width: 325px;
+        height: 320px;
+        
+    }
+    @media screen and (min-width:1200px){
+        width: 534px;
+        height: 534px;
+        top: 0;
+        right: 30%;
+    }
     
 }
-.details{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+
 .add-illustration{
     display: flex;
     justify-content: space-between;
     padding-top: 72px;
     position: relative;
+
+   
 }
 
+.details{
+    display: none;
+
+    @media screen and (min-width:768px){
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    @media screen and (min-width:1200px){
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
 .sixteen{
     display: flex;
     flex-direction: column;
@@ -131,15 +239,25 @@
     font-family: 'Titan One';
     font-style: normal;
     font-weight: 400;
-    font-size: 46px;
+    
     line-height: 1.15;
     text-align: right;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: $passion-color;
     position: relative;
-    top: -20px;
-    right: 14px;
+    
+    
+    @media screen and (min-width:768px){
+        font-size: 28px;
+        right: 5px;
+        top: -15px;
+    }
+    @media screen and (min-width:1200px){
+        font-size: 46px;
+        right: 14px;
+        top: -20px;
+    }
 
 }
 .sixteen__cafes{
@@ -150,9 +268,26 @@
     text-align: right;
     color: $white-color;
     margin-top: -20px;
+
+    @media screen and (min-width:768px){
+        font-size: 8px;
+    }
+    @media screen and (min-width:1200px){
+        font-size: 14px;
+    }
 }
 .sixteen__white-ellipse{
     text-align: right;
+    @media screen and (min-width:768px){
+        width: 15px;
+        height:15px;
+
+        
+    }
+    @media screen and (min-width:1200px){
+        width: 30px;
+        height: 30px;
+    }
 }
 
 .twenty-three{
@@ -165,26 +300,64 @@
     font-family: 'Titan One';
     font-style: normal;
     font-weight: 400;
-    font-size: 46px;
+    
     line-height: 1.15;
     text-align: right;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: $passion-color;
     position: relative;
-    top: -20px;
-    right: 14px;
+   
+
+    @media screen and (min-width:768px){
+        font-size: 28px;
+        right: 5px;
+        top: -15px;
+    }
+    @media screen and (min-width:1200px){
+        font-size: 46px;
+        right: 14px;
+        top: -20px;
+    }
 
 }
 .twenty-three__trucks{
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    
     text-align: right;
     color: $white-color;
     margin-top: -20px;
+    @media screen and (min-width:768px){
+        font-size: 8px;
+    }
+    @media screen and (min-width:1200px){
+        font-size: 14px;
+    }
 }
-.twenty-three__white-ellipse{
+.twenty-three__white-circle{
     text-align: right;
+    @media screen and (min-width:768px){
+        width: 15px;
+        height: 15px;
+    }
+    @media screen and (min-width:1200px){
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.lady__img{
+    
+    @media screen and (min-width:768px){
+        width: 190px;
+        height: 150px;
+        margin-left: 80px;
+    }
+    @media screen and (min-width:1200px){
+        width: 300px;
+        height: 250px;
+        margin-left: 0px;
+    }
 }
