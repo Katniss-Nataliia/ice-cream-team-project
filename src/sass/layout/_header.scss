@@ -26,11 +26,11 @@ header{
       align-items: center;
     }
   
-    &-item:not(:last-child) {
+    &__item:not(:last-child) {
       margin-right: 35px;
     }
 
-    &-item-link {
+    &__item__link {
       font-weight: 700;
       font-size: 16px;
       line-height: 1.31;
@@ -46,13 +46,13 @@ header{
   }
   
   .btn-buy {
-    width: 160px;
-    height: 44px;
-
+    
+    
     background: $white-color;
     border-radius: 22px;
     border: none;
-    padding: 0;
+    padding: 12px 35.275px;
+    
 
     font-weight: 700;
     font-size: 16px;
@@ -74,16 +74,17 @@ header{
       display: flex;
       justify-content: center;
       align-items: center;
+      
+      
     }
   
     @media screen and (min-width: 1200px) {
       margin-left: 141px;
-      width: 159px;
     }
      
   }
   
-  .btn-buy-icon {
+  .btn-buy__icon {
     margin-left: 12px;
   }
   
@@ -91,6 +92,7 @@ header{
     border: none;
     background-color: transparent;
     margin-left: 61px;
+    padding: 0;
   
     @media screen and (min-width: 768px) {
       margin-left: 293px;

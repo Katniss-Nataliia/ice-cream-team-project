@@ -93,6 +93,98 @@
     margin-bottom: 20px;
     padding-top: 40px;
 }
+
+.add-illustration__img{
+    margin-right: 8px;
+    z-index: 1;
+    
+}
+.lady{
+    z-index: 1;
+}
+.add-illustration__pink-ellipse{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 30%;
+    
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .add-illustration{
     display: flex;
+    justify-content: space-between;
+    padding-top: 72px;
+    position: relative;
+}
+
+.sixteen{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
+}
+.sixteen__number{
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 1.15;
+    text-align: right;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $passion-color;
+    position: relative;
+    top: -20px;
+    right: 14px;
+
+}
+.sixteen__cafes{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    color: $white-color;
+    margin-top: -20px;
+}
+.sixteen__white-ellipse{
+    text-align: right;
+}
+
+.twenty-three{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 18px;
+}
+.twenty-three__number{
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 1.15;
+    text-align: right;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $passion-color;
+    position: relative;
+    top: -20px;
+    right: 14px;
+
+}
+.twenty-three__trucks{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    color: $white-color;
+    margin-top: -20px;
+}
+.twenty-three__white-ellipse{
+    text-align: right;
 }
