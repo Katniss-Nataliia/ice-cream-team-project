@@ -203,3 +203,21 @@
     padding-top: 20px;
   }
 }
+.product__arrow {
+  display: block;
+  position: absolute;
+  align-items: center;
+  @media screen and (min-width: 321px) {
+    margin-top: 32px;
+    margin-left: 25%;
+  }
+  @media screen and (min-width: 769px) {
+    margin-top: 60px;
+    margin-left: 25%;
+  }
+
+  @media screen and (max-width: 321px) {
+    margin-top: 32px;
+    margin-left: 25%;
+  }
+}
