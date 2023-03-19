@@ -164,6 +164,8 @@
 }
 
 .add-illustration__img{
+    width: 170px;
+    height: 400px;
     margin-right: 8px;
     z-index: 1;
 
@@ -182,12 +184,13 @@
     z-index: 1;
 }
 .add-illustration__pink-ellipse{
-    position: absolute;
+    
     z-index: 0;
-    top: 0;
-    right: 30%;
-    width: 345px;
-    height: 340px;
+    position: absolute;
+    width: 346px;
+    height: 344px;
+    left: 36px;
+    top: 83px;
 
     @media screen and (min-width:768px){
         top: 10%;
@@ -208,9 +211,13 @@
 .add-illustration{
     display: flex;
     justify-content: space-between;
-    padding-top: 72px;
-    position: relative;
-
+    
+    @media screen and (min-width:768px){
+        padding-top: 72px;
+        position: relative;
+        
+    }
+    
    
 }
 
