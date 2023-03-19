@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 
-footer {
+.footer {
   background-color: $light-pink;
+  padding-top: 121px;
 }
 
 .footer__container {
   border-bottom: 1px solid $quotes-grey-color;
   padding-bottom: 43px;
+  background-color: aqua;
   @media screen and(min-width: 768px) {
     display: flex;
     justify-content: space-between;
@@ -111,10 +113,6 @@ footer {
   }
 }
 
-.footer__social-item:hover, 
-.footer__social-item:focus {
-  fill: $products-title-red-color;
-}
 
 .footer__social-icon {
   fill: #FEA5BB;
@@ -133,13 +131,18 @@ footer {
   }
 }
 
+.footer__social-item:hover, 
+.footer__social-item:focus {
+  fill: $passion-color;
+}
+
 .footer__number {
   color: $black;
   font-weight: 700;
   font-style: bold;
   line-height: 1.86;
   letter-spacing: 0.02em;
-  
+  padding-bottom: 60px;
   
   @media screen and(min-width: 320px) {
     font-size: 12px;
