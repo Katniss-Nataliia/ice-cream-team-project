@@ -1,12 +1,12 @@
 .how-its-made__section{
-  background-image: url(/src/images/backgroundphoto.jpg);
+  background-image: url(/src/images/backgroundphoto.png);
   background-size: 1200px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 h4 {
-  color: #ffa5ba;
+  color: $natural-pink-color;
   font-family:'titan one' ;
   font-size: 30px;
   font-weight: 400; 
@@ -22,19 +22,30 @@ Vertical-align: Top;
 letter-spacing: 6%;
 }
 
-.general-container{
+
+
+.organic-milk{
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
+  
 }
 
+.paragraph_section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+
 .ingredient-text__one{
-  color:black;
+  color:$black;
   font-size: 16px;
   font-weight: 500;
-  text-align: right;
   line-height: 28px;
   letter-spacing: 0.04em;
-  flex-direction: column;
+  text-align: left;
+ 
 }
  
  .ingredient-text__one:hover{
@@ -49,11 +60,9 @@ letter-spacing: 6%;
 font-style: normal;
 color:#907e82;
 font-size: 14px;
-text-align: right;
 line-height: 27px;
 letter-spacing: 0.04em;
-display: right;
-flex-direction: column;
+text-align: left;
 }
 .ingredient-text__two:hover{
   text-decoration: underline;
@@ -65,7 +74,7 @@ flex-direction: column;
  .read-more__button{
   border: 22px;
   border-radius: 22px;
-  background-color: $white-color;
+  background-color:solid $white-color;
   font-family: 'DM Sans';
   font-style: bold;
   font-weight: 700;
@@ -76,7 +85,7 @@ flex-direction: column;
   color: $products-title-red-color;
   transition: box-shadow $time $time-function;
   cursor: pointer;
-  flex-direction: center;
+ 
   
   &:hover,
   &:focus{
@@ -90,7 +99,105 @@ flex-direction: column;
   height: 8px;
   width: 4.43px;
   border-radius: 2px;
-
-
 }
 
+.natural__ingredients{
+  justify-content: space-around;
+  flex-direction:row;
+  display: flex;
+  
+}
+
+
+.cream__svg--icon{
+  color:$natural-pink-color;
+  width: 50px;
+  height: 50px;
+ fill:$natural-pink-color;
+ 
+}
+
+.cup__svg--icon{
+  color:$natural-pink-color;
+  width: 50px;
+  height: 50px;
+ fill:$natural-pink-color;
+}
+
+.fruit__svg--icon{
+  color:$natural-pink-color;
+  width: 50px;
+  height: 50px;
+ fill:$natural-pink-color;
+}
+.heart__svg--icon{
+  color:$natural-pink-color;
+  width: 50px;
+  height: 50px;
+ fill:$natural-pink-color;
+}
+
+
+.description_textone{
+color: $black;
+font-family: 'dm sans';
+font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.02em;
+flex-direction: column;
+}
+.title_721{
+  color: $passion-color;
+  font-family:'titan one' ;
+  font-size: 58px;
+  line-height: 66px;
+  font-weight: 400; 
+  text-align: center;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.description_texttwo{
+color: $black;
+font-family: 'dm sans';
+font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.02em;
+flex-direction: column;
+
+}
+.title_16kg{
+  color: $passion-color;
+  font-family:'titan one' ;
+  font-size: 58px;
+  line-height: 66px;
+  font-weight: 400; 
+  text-align: center;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.description_textthree{
+color: $black;
+font-family: 'dm sans';
+font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.02em;
+flex-direction: column;
+  }
+
+.title_84{
+  color: $passion-color;
+  font-family:'titan one' ;
+  font-size: 58px;
+  line-height: 66px;
+  font-weight: 400; 
+  text-align: center;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;   
+  
+  }
