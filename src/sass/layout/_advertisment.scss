@@ -4,6 +4,12 @@
     justify-content: space-between;
     padding-left: 16px;
     padding-right: 16px;
+    @media screen and (max-width:460px){
+        padding-bottom: 158px;
+        
+    }
+
+   
 }
 
 .ad-description__title{
@@ -17,6 +23,8 @@
     color: $white-color;
     padding-top:74px;
     margin-bottom: 24px;
+    z-index: 999;
+    position: relative;
 
     & > span{
         color: $passion-color;
@@ -29,6 +37,9 @@
         font-size: 38px;
     }
 }
+.buttons{
+    display: flex;
+}
 .ad-description__products-button{
     border-radius: 20px;
     border: 0px;
@@ -40,17 +51,21 @@
     line-height: 1.2;
     text-align: center;
     color:$white-color;
-    padding:11px 23px;
+    padding: 7px 15px;
     margin-right: 8px;
     transition: box-shadow $time $time-function;
     cursor: pointer;
+    z-index: 999;
+    position: relative;
    
     &:hover,
     &:focus{
         box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
         
     }
-
+    @media screen and (min-width:768px) {
+        padding:11px 23px;
+    }
     @media screen and (min-width:1200px) {
         font-size: 14px;
         margin-right: 12px;
@@ -67,14 +82,20 @@
     font-size: 8px;
     line-height: 1.2;
     text-align: center;
-    padding:11px 23px;
+    padding:7px 15px;
     color: $passion-color;
     transition: box-shadow $time $time-function;
     cursor: pointer;
+    z-index: 999;
+    position: relative;
+    // margin-bottom: 150px;
    
     &:hover,
     &:focus{
         box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    }
+    @media screen and (min-width:768px) {
+        padding:11px 23px;
     }
 
     @media screen and (min-width:1200px) {
@@ -164,18 +185,23 @@
 }
 
 .add-illustration__img{
-    width: 170px;
-    height: 400px;
-    margin-right: 8px;
+    
+    height: 300px;
     z-index: 1;
-
+   
+    
+    @media screen and (max-width:460px){
+        position: absolute;
+        left: 115px;
+        height: 370px;
+        
+    }
     @media screen and (min-width:768px){
-        width: 140px;
+        margin-right: 8px;
         height: 330px;
         
     }
     @media screen and (min-width:1200px){
-        width: 230px;
         height: 550px;
     }
     
@@ -187,14 +213,14 @@
     
     z-index: 0;
     position: absolute;
-    width: 346px;
-    height: 344px;
+    width: 300px;
+    height: 300px;
     left: 36px;
     top: 83px;
 
     @media screen and (min-width:768px){
         top: 10%;
-        right: 45%;
+        left: -25%;
         width: 325px;
         height: 320px;
         
@@ -203,7 +229,7 @@
         width: 534px;
         height: 534px;
         top: 0;
-        right: 30%;
+        left: -30%;
     }
     
 }
@@ -211,6 +237,7 @@
 .add-illustration{
     display: flex;
     justify-content: space-between;
+    
     
     @media screen and (min-width:768px){
         padding-top: 72px;
